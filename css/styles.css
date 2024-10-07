@@ -149,7 +149,7 @@ button {
 
 /* ----- hero -----*/
 .hero {
-  background-image: url(/img/Rectangle.jpg);
+  background-image: url(../img/Rectangle.jpg);
   background-repeat: no-repeat;
   /* background-position: center; */
   background-size: cover;
@@ -368,7 +368,7 @@ button {
 /* ----- energy -----*/
 
 .energy {
-  background-image: url(/img/energy-bg.jpg);
+  background-image: url(../img/energy-bg.jpg);
   background-repeat: no-repeat;
 
 }
@@ -376,6 +376,8 @@ button {
 .energy-container {
   display: flex;
   gap: 75px;
+
+  margin-bottom: 40px;
 }
 
 .energy-box-img {
@@ -406,6 +408,11 @@ button {
   margin-bottom: 25px;
 }
 
+.energy-text-holder {
+  display: flex;
+  align-items: center;
+}
+
 .energy-text-box-text {
   font-weight: 400;
   font-size: 19px;
@@ -416,47 +423,85 @@ button {
   margin-bottom: 25px;
 }
 
-.energy-text-holder {
+.energy-checkbox-container {
   display: flex;
   align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+  margin-bottom: 38px;
 }
 
-.energy-text-box-text-two {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #f6f9e5;
-  margin-bottom: 37px;
-  text-align: left;
-  padding-left: 90px;
-  position: relative;
-
-}
-
-.energy-text-box-text-two::before {
-  content: "";
+.energy-checkbox-form-blue {
+  display: flex;
   width: 20px;
   height: 20px;
   color: #000;
   border: 1px solid #fff;
   background-color: #13c0d7;
-  display: block;
-  position: absolute;
-  left: 10px;
-  top: 2px;
-
+  align-items: center;
 }
 
-.energy-text-box-text-two::after {
-  content: "";
-  border: 1px solid #fff;
+.energy-checkbox-span-blue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 20px;
   height: 20px;
-  background-color: #d53f23;
+  fill: transparent;
+  flex-shrink: 0;
+}
+
+.energy-checkbox-span-svg-blue {
   display: block;
-  position: absolute;
-  left: 50px;
-  top: 2px;
+}
+
+.energy-checkbox-span-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f6f9e5;
+  text-align: left;
+  display: block;
+}
+
+input:checked+.energy-checkbox-form-blue>.energy-checkbox-span-blue {
+  fill: #f6f9e5;
+}
+
+.energy-checkbox-span-blue .energy-checkbox-span-blue {
+  order: -1;
+}
+
+.energy-checkbox-form-red {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  color: #000;
+  border: 1px solid #fff;
+  background-color: #d53f23;
+  align-items: center;
+}
+
+.energy-checkbox-span-red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  flex-shrink: 0;
+}
+
+.energy-checkbox-span-svg-red {
+  display: block;
+}
+
+input:checked+.energy-checkbox-form-red>.energy-checkbox-span-red {
+  fill: #f6f9e5;
+}
+
+.energy-checkbox-span-red .energy-checkbox-span-red {
+  order: -1;
 }
 
 .energy-button {
