@@ -376,26 +376,24 @@ button {
 .energy-container {
   display: flex;
   gap: 75px;
-
-  margin-bottom: 40px;
 }
 
 .energy-box-img {
   flex-shrink: 0;
   position: relative;
-  margin-top: -143px;
+  margin-top: 184px;
   padding-left: 15px;
 }
 
 .energy-box-img-image {
   width: 822px;
-  /* height: 826px; */
+  /* height: 822px; */
 }
 
 .energy-text-box {
   width: 434px;
-  /* height: 377px; */
   padding-top: 416px;
+  padding-bottom: 354px;
 }
 
 .energy-text-title {
@@ -468,7 +466,8 @@ input:checked+.energy-checkbox-form-blue>.energy-checkbox-span-blue {
   fill: #f6f9e5;
 }
 
-.energy-checkbox-span-blue .energy-checkbox-span-blue {
+.energy-checkbox-form-blue,
+.energy-checkbox-span-blue {
   order: -1;
 }
 
@@ -496,13 +495,15 @@ input:checked+.energy-checkbox-form-blue>.energy-checkbox-span-blue {
   display: block;
 }
 
+.energy-checkbox-form-red,
+.energy-checkbox-span-red {
+  order: -1;
+}
+
 input:checked+.energy-checkbox-form-red>.energy-checkbox-span-red {
   fill: #f6f9e5;
 }
 
-.energy-checkbox-span-red .energy-checkbox-span-red {
-  order: -1;
-}
 
 .energy-button {
   font-weight: 400;
@@ -526,4 +527,192 @@ input:checked+.energy-checkbox-form-red>.energy-checkbox-span-red {
   border: 2px solid #005466;
   color: #005466;
   background-color: #f6f9e5;
+}
+
+/* ----- calm -----*/
+
+.calm {
+  background-image: url(../img/calm-bg.png);
+  background-repeat: no-repeat;
+  margin-top: -126px;
+}
+
+.calm-container {
+  display: flex;
+  gap: 60px;
+}
+
+.calm-text-box {
+  padding: 416px 0 354px 94px;
+  width: 434px;
+  flex-shrink: 0;
+
+}
+
+.calm-text-title {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 1.14;
+  color: #c47b59;
+  width: 220px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.calm-text-holder {}
+
+.calm-text-box-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #c47b59;
+  margin-bottom: 25px;
+  text-align: left;
+  width: 428px;
+}
+
+/* ---*/
+.calm-checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+  margin-bottom: 38px;
+}
+
+.calm-checkbox-form-grey {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  color: #000;
+  border: 1px solid #fff;
+  background-color: #c47b59;
+  align-items: center;
+}
+
+.calm-checkbox-span-grey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  flex-shrink: 0;
+}
+
+.calm-checkbox-span-svg-grey {
+  display: block;
+}
+
+.calm-checkbox-span-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f6f9e5;
+  text-align: left;
+  display: block;
+}
+
+input:checked+.calm-checkbox-form-grey>.calm-checkbox-span-grey {
+  fill: #f6f9e5;
+}
+
+.calm-checkbox-form-grey,
+.calm-checkbox-span-grey {
+  order: -1;
+}
+
+.calm-checkbox-form-orange {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  color: #000;
+  border: 1px solid #fff;
+  background-color: #ef9632;
+  align-items: center;
+}
+
+.calm-checkbox-span-orange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  flex-shrink: 0;
+}
+
+.calm-checkbox-span-svg-orange {
+  display: block;
+}
+
+.calm-checkbox-form-orange,
+.calm-checkbox-span-orange {
+  order: -1;
+}
+
+input:checked+.calm-checkbox-form-orange>.calm-checkbox-span-orange {
+  fill: #f6f9e5;
+}
+
+/* --- */
+.calm-checkbox-container {}
+
+.calm-checkbox-container-blue {}
+
+.calm-checkbox-input-blue {}
+
+.visually-hidden {}
+
+.calm-checkbox-form-blue {}
+
+.calm-checkbox-span-blue {}
+
+.calm-checkbox-span-svg-blue {}
+
+.calm-checkbox-container-red {}
+
+.calm-checkbox-input-red {}
+
+.calm-checkbox-form-red {}
+
+.calm-checkbox-span-red {}
+
+.calm-checkbox-span-svg-red {}
+
+.calm-checkbox-span-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #c47b59;
+}
+
+.calm-button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.06;
+  text-transform: uppercase;
+  text-align: center;
+  color: #c47b59;
+  border: 2px solid #c47b59;
+  border-radius: 2px;
+  width: 260px;
+  height: 52px;
+  background-color: transparent;
+  transition: 250ms ease-in-out;
+}
+
+.calm-button:hover {
+  color: #005466;
+  border: 2px solid #f7d8bf;
+  background-color: #f6f9e5;
+}
+
+.calm-box-img {
+  flex-shrink: 0;
+}
+
+.calm-box-img-image {
+  width: 822px;
+  /* height: 822px; */
 }
