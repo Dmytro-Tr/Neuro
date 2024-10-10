@@ -925,6 +925,7 @@ input:checked+.calm-checkbox-form-orange>.calm-checkbox-span-orange {
   width: 150px;
   padding-bottom: 11px;
   display: block;
+  transition: border-bottom 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 .science-desc-link:hover {
@@ -1001,4 +1002,11 @@ input:checked+.calm-checkbox-form-orange>.calm-checkbox-span-orange {
   border: 2px solid #000;
   border-radius: 2px;
   background-color: #000;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out, border 250ms ease-in-out;
+}
+
+.refresh-btn:hover {
+  color: #005466;
+  background-color: #f6f9e5;
+  border: 2px solid #f7d8bf;
 }
