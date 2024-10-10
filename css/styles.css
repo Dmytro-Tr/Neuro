@@ -836,7 +836,7 @@ input:checked+.calm-checkbox-form-orange>.calm-checkbox-span-orange {
 }
 
 .ourmission-desc {
-  margin: 248px 0 248px 0;
+  padding: 248px 0 248px 0;
   width: 440px;
 }
 
@@ -876,4 +876,129 @@ input:checked+.calm-checkbox-form-orange>.calm-checkbox-span-orange {
 .ourmission-desc-link:hover {
   border-bottom: 2px solid #005466;
   color: #005466;
+}
+
+/* ----- science -----*/
+
+.science {
+  background-image: url(../img/science-bg.png);
+  background-repeat: no-repeat;
+  margin-top: -78px;
+  position: relative;
+}
+
+.science-container {
+  width: 1200px;
+  display: flex;
+}
+
+.science-desc {
+  padding: 295px 0 190px 0;
+  text-align: left;
+}
+
+.science-desc-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.13;
+  color: #fff;
+  width: 308px;
+  margin-bottom: 22px;
+}
+
+.science-desc-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  width: 440px;
+  margin-bottom: 21px;
+}
+
+.science-desc-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.06;
+  text-transform: uppercase;
+  color: #0a644a;
+  border-bottom: 2px solid #0a644a;
+  width: 150px;
+  padding-bottom: 11px;
+  display: block;
+}
+
+.science-desc-link:hover {
+  border-bottom: 2px solid #005466;
+  color: #005466;
+}
+
+.science-img-box {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+}
+
+/* ----- doingmore -----*/
+
+.doingmore-container {
+  padding: 119px 0 160px 0;
+}
+
+.doingmore-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.13;
+  text-align: center;
+  color: #000;
+  margin-bottom: 22px;
+}
+
+.doingmore-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+}
+
+.doingmore-text-span {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.57895;
+  text-align: center;
+  color: #000;
+}
+
+/* ----- refresh ----- */
+.refresh {
+  background-image: url(../img/refresh-bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.refresh-container {
+  padding: 180px 0 320px 115px;
+}
+
+.refresh-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 1.09;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.refresh-btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.06;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 16px 77px 21px 77px;
+  border: 2px solid #000;
+  border-radius: 2px;
+  background-color: #000;
 }
